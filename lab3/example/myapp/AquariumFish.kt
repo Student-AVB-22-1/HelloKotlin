@@ -19,3 +19,10 @@ class Plecostomus: FishColor("gold"), FishAction {
         println("eat algae")
     }
 }
+
+// ИСПРАВЛЕНО: Функции-расширения добавлены здесь и применены к FishColor
+fun FishColor.isRed() = color == "red"
+
+fun FishColor.isGreen() = color == "green"
+
+fun FishColor.isBlue() = color == "blue"

@@ -1,6 +1,7 @@
 package example.myapp
 
 import example.myapp.decor.makeDecorations
+import example.myapp.* // ИСПРАВЛЕНО: Используем wildcard-импорт для функций-расширений
 
 fun main() {
     buildAquarium()
@@ -40,6 +41,6 @@ fun testPairs() {
 }
 
 fun testExtensionFunctions() {
-    val aquarium = Aquarium(width = 25, length = 25, height = 40)
-    println("Is aquarium red? ${aquarium.isRed()}")
+    val shark = Shark()
+    println("Is shark red? ${shark.isRed()}")
 }

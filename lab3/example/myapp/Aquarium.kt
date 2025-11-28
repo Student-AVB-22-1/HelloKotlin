@@ -2,7 +2,8 @@ package example.myapp
 
 import kotlin.math.PI
 
-open class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40) {
+open class Aquarium(var length: Int = 100, var width: Int = 20, open var height: Int = 40) {
+//                                                              ^^^^ ИСПРАВЛЕНО: Добавлено 'open'
 
     open var volume: Int
         get() = width * height * length / 1000
@@ -42,10 +43,3 @@ class TowerTank (override var height: Int, var diameter: Int) : Aquarium(height 
 
     override val shape = "cylinder"
 }
-
-// Функции-расширения (Extension Functions)
-fun Aquarium.isRed() = color == "red"
-
-fun Aquarium.isGreen() = color == "green"
-
-fun Aquarium.isBlue() = color == "blue"
