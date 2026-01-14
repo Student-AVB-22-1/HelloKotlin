@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    
+    <!-- Artwork 1 - The Great Wave -->
+    <string name="artwork_1_title">The Great Wave off Kanagawa</string>
+    <string name="artwork_1_artist">Katsushika Hokusai</string>
+    <string name="artwork_1_year">1831</string>
+    
+    <!-- Artwork 2 - Abstract Art -->
+    <string name="artwork_2_title">Portuguese Woman</string>
+    <string name="artwork_2_artist">Robert Delaunay</string>
+    <string name="artwork_2_year">1916</string>
+    
+    <!-- Artwork 3 - Woman with Parasol -->
+    <string name="artwork_3_title">Woman with a Parasol</string>
+    <string name="artwork_3_artist">Claude Monet</string>
+    <string name="artwork_3_year">1875</string>
+    
+    <!-- Navigation Buttons -->
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+</resources>
