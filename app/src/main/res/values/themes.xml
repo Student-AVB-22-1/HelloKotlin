@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Lab5" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Theme for the Compose part of the app. -->
+    <style name="Theme.Lab5Theme" parent="Theme.Lab5" />
+</resources>
